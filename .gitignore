@@ -1,0 +1,46 @@
+# Python environments
+**/venv/
+**/.venv/
+**/env/
+**/.env/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+site-packages/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment variables and credentials
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Trained models and serialized ML artifacts
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.keras
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.model
+*.weights
+*.tflite
+
+# ML experiment tracking and logs
+mlruns/
+wandb/
+lightning_logs/
+tensorboard/
+*.log
